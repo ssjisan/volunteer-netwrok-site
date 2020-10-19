@@ -6,7 +6,7 @@ const EventList = () => {
     const [loggedInUser, setLoggedInUser] = useContext(UserContext); 
     const [events, setEvents] = useState([])
     useEffect(()=>{
-        fetch('http://localhost:3001/registeredEvent?email='+loggedInUser.email)
+        fetch('https://powerful-chamber-56757.herokuapp.com/registeredEvent?email='+loggedInUser.email)
         .then(result=>result.json())
         .then(data=>setEvents(data))
     },[])

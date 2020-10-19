@@ -1,0 +1,25 @@
+.list{
+    padding-top: 25px;
+    padding-right: 25px;
+}
+
+.place-admin{
+    padding-left: 40px;
+    padding-top: 40px;
+    width: 95%;
+    height: 100%;
+    background-color:#F4F7FC;
+    font-weight: bold;
+}
+
+#file{
+    display: none;
+}
+
+.form-field{
+    background-color: white;
+    padding: 20px;
+    width: 90%;
+    border-radius: 10px;
+
+}

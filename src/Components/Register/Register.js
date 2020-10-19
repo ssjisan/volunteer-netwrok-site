@@ -43,7 +43,7 @@ const handleSubmit = () => {
       eventPic: event.pic,
       date: selectedDate
   };
-  fetch('http://localhost:3001/submitted', {
+  fetch('https://powerful-chamber-56757.herokuapp.com/submitted', {
       method: "POST",
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify(newReg)
