@@ -8,3 +8,23 @@ event.
     5.Admin can remove any volunteer from any events 
 
 I used ReactJS, React Router, Firebase Authentication for user/ admin login. NodeJS and MongoDB are used for backend services. And Bootstrap,Material-UI, HTML, CSS used for designing the site. 
+
+## Features:
+*   User can see volunteer event and they can register as a volunteer.
+*   User can see there all registered events and they can cancle their event.
+*   Admin can add new events.
+*   Store all information.
+*   All registered volunteer information displayed in dashboard.
+
+## Front-end Technology :
+*   React.js
+*   Material-UI
+*   Bootstrap4
+*   CSS3
+
+## Back-end Technology :
+*   Node.js
+*   Express.js
+*   Firebase Authentication
+*   MongoDB
+*   Heroku
